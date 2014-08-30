@@ -1,0 +1,20 @@
+<section id="station" ng-class="{'animated bounceInUp': station !== undefined}">
+	<h2>{{station.name}}</h2>
+	<h3>{{station.data.opened}} - {{station.data.closed}}</h3>
+	<div class="meta clearfix">
+		<div class="column">
+			<strong>Station type</strong>
+			<span>{{station.type}}</span>
+		</div>
+		<div class="column">
+			<strong>Type of closure</strong>
+			<span>{{station.data.type_of_closure}}</span>
+		</div>
+		<div class="column">
+			<strong>Current condition</strong>
+			<span>{{station.data.current_condition}}</span>
+		</div>
+	</div>
+	<div id="excerpt" ng-bind-html="station.data.excerpt"></div>
+	<a href="{{station.data.wiki_link}}" id="wikilink">{{station.data.wiki_link}} <span class="icon-link-external"></span></a>
+</section>

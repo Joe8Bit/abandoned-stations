@@ -1,0 +1,13 @@
+<section id="currentline" ng-class="{'animated bounceInRight': currentLine !== undefined}">
+	<a href="" id="closeLine" ng-click="purgeCurrentLine()"><span class="icon-uniE600"></span></a>
+	<h3>{{currentLine.line.name}}</h3>
+	<ul>
+		<li ng-repeat="station in currentLine.stations" ng-click="showStation(station)">
+			<span class="first" ng-show="$index === 0"></span>
+			<span class="middle" ng-hide="$index === 0 || $index === currentLine.stations.length - 1"></span>
+			<span class="last" ng-show="$index === currentLine.stations.length - 1"></span>
+
+			<div class="name">{{station.properties.name}}</div>
+		</li>
+	</ul>
+</section>

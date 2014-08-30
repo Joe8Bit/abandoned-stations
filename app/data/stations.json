@@ -1,0 +1,96 @@
+[{
+    "type": "Feature",
+    "geometry": {
+        "type": "Point", 
+        "coordinates": [-0.121917, 51.517423]
+    },
+    "properties": {
+        "type": "deep",
+        "line": "central",
+        "name": "British Museum",
+        "data": {
+        	"type_of_closure": "Station closed",
+        	"current_condition": "Demolished",
+        	"excerpt": "<p>British Museum was a station on the London Underground, located in Holborn, central London. It was latterly served by the Central line and took its name from the nearby British Museum in Great Russell Street.</p><p>The station was opened by the Central London Railway in 1900. In 1933, with the expansion of Holborn station, less than 100 yards away, British Museum station was permanently closed. It was subsequently utilised as a military office and command post, but in 1989 the surface building was demolished and the remainder of the station is wholly disused.</p>",
+	        "wiki_link": "http://en.wikipedia.org/wiki/British_Museum_tube_station",
+	        "opened": "1900/08/30",
+	        "closed": "1933/09/24"
+        }
+    }
+},{
+    "type": "Feature",
+    "geometry": {
+        "type": "Point", 
+        "coordinates": [0.046190, 51.625098]
+    },
+    "properties": {
+        "type": "surface",
+        "line": "central",
+        "name": "Buckhurst Hill",
+        "data": {
+        	"type_of_closure": "Partial",
+        	"current_condition": "Resited",
+        	"excerpt": "<p>The station opened on 22 August 1856 as part of the Eastern Counties Railway branch from London to Loughton. It originally had staggered platforms, with the main buildings on the down side (tracks heading away from London). The 1856 station house survives to the south of the present platforms, but most of the present station dates from 1892, when the entrance was moved to Victoria Road. The building is similar to that at Billericay. By this date the station formed part of the Great Eastern Railway which was, from 1923, to become part of the London & North Eastern Railway.</p>",
+	        "wiki_link": "http://en.wikipedia.org/wiki/Buckhurst_Hill_tube_station",
+	        "opened": "1856/08/22",
+	        "closed": "1892/04/09"
+        }
+    }
+}, {
+    "type": "Feature",
+    "geometry": {
+        "type": "Point", 
+        "coordinates": [0.203360, 51.712101]
+    },
+    "properties": {
+        "type": "surface",
+        "line": "central",
+        "name": "Blake Hall",
+        "data": {
+        	"type_of_closure": "Station and route closed",
+        	"current_condition": "Building remains as private residence",
+        	"excerpt": "<p>Blake Hall is a disused station on the London Underground located near the village of Bobbingworth in Essex, approximately 24 miles (39 km) northeast of Charing Cross. It was latterly on the Central line, between North Weald and Ongar stations, but had originally been served by the Epping Ongar Railway branch line.</p><p>It was opened in 1865 and named after Blake Hall, a country house located a mile or so to the northeast and inhabited by a family of substantial local land-owners. The station was closed in 1981.</p>",
+	        "wiki_link": "http://en.wikipedia.org/wiki/Blake_Hall_tube_station",
+	        "opened": "1865/04/24",
+	        "closed": "1981/11/02"
+        }
+    }
+}, {
+    "type": "Feature",
+    "geometry": {
+        "type": "Point", 
+        "coordinates": [0.164077, 51.711435]
+    },
+    "properties": {
+        "type": "surface",
+        "line": "central",
+        "name": "North Weald",
+        "data": {
+        	"type_of_closure": "Station and route closed",
+        	"current_condition": "Building remains",
+        	"excerpt": "<p>North Weald station is a former London Underground station in Essex, England. Located between Epping and Blake Hall stations on the Central line the station is part of the Epping Ongar Railway. It serves the village of North Weald.</p>",
+	        "wiki_link": "http://en.wikipedia.org/wiki/North_Weald_railway_station",
+	        "opened": "1865/04/24",
+	        "closed": "1994/09/30"
+        }
+    }
+}, {
+    "type": "Feature",
+    "geometry": {
+        "type": "Point", 
+        "coordinates": [0.2428, 51.7089]
+    },
+    "properties": {
+        "type": "surface",
+        "line": "central",
+        "name": "Ongar",
+        "data": {
+        	"type_of_closure": "Station and route closed",
+        	"current_condition": "Building remains",
+        	"excerpt": "<p>Ongar railway station is a former London Underground station in the town of Chipping Ongar, Essex. It was opened in 1865 by the Great Eastern Railway, and became part of London Transport in 1949. Until its closure in 1994, it was the easternmost point of the Central line.</p>",
+	        "wiki_link": "http://en.wikipedia.org/wiki/Ongar_railway_station",
+	        "opened": "1865/04/24",
+	        "closed": "1994/09/30"
+        }
+    }
+}]

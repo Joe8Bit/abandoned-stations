@@ -1,0 +1,378 @@
+$icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/bootstrap/";
+// bower:scss
+@import "bootstrap-sass-official/assets/stylesheets/bootstrap.scss";
+// endbower
+
+// CSS Animations
+@keyframes showLinesIn {
+  0%, 60%, 75%, 90%, 100% {
+    transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+  }
+
+  90% {
+    width: 245px;
+  }
+
+  100% {
+    width: 230px;
+  }
+}
+@keyframes showLinesOut {
+  0%, 60%, 75%, 90%, 100% {
+    transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+  }
+
+  0% {
+    width: 230px
+  }
+
+  10% {
+    width: 245px;
+  }
+
+  100% {
+    width: 45px;
+  }
+}
+@keyframes showCurrentLine {
+  0%, 60%, 75%, 90%, 100% {
+    transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+  }
+
+  100% {
+    right: 0px;
+  }
+}
+
+@keyframes hideCurrentLine {
+  0%, 60%, 75%, 90%, 100% {
+    transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+  }
+
+  100% {
+    right: -250px;
+  }
+}
+
+// Fonts
+@import "https://fonts.googleapis.com/css?family=Montserrat:400,700";
+@font-face {
+  font-family: 'icomoon';
+  src:url('/fonts/icomoon.eot?-d95m3b');
+  src:url('/fonts/icomoon.eot?#iefix-d95m3b') format('embedded-opentype'),
+    url('/fonts/icomoon.woff?-d95m3b') format('woff'),
+    url('/fonts/icomoon.ttf?-d95m3b') format('truetype'),
+    url('/fonts/icomoon.svg?-d95m3b#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-link-external:before {
+  content: "\f07f";
+}
+.icon-uniE600:before {
+  content: "\e600";
+}
+.icon-github:before {
+  content: "\f09b";
+}
+
+
+$blue: #3d7296;
+$green: #31ad22;
+$yellow: #dfb40f;
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+body {
+  background: #ccc;
+}
+
+header {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  background: $blue;
+  color: #fff;
+  z-index: 10;
+  img {
+    float: left;
+    width: 45px;
+    padding: 10px;
+  }
+  h1 {
+    float: left;
+    margin: 0;
+    font-size: 22px;
+    padding: 10px 0;
+    font-family: 'Montserrat', sans-serif;
+  }
+  #share {
+    float: right;
+    margin: 10px 10px 0 0;
+    .item {
+      float: right;
+    }
+  }
+}
+
+#lines {
+  position: fixed;
+  top: 44px;
+  left: 0px;
+  bottom: 0px;
+  color: #fff;
+  z-index: 10;
+  width: 44px;
+  #github {
+    background: darken($green, 5%);
+    color: lighten($green, 15%);
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    z-index: 11;
+    font-size: 26px;
+    padding: 9px 7px 4px 11px;
+    line-height: 26px;
+    &:hover {
+      color: lighten($green, 30%);
+      text-decoration: none;
+    }
+  }
+  ul {
+    position: relative;
+    z-index: 3;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    z-index: 10;
+    &#station-names {
+      z-index: 1;
+      position: absolute;
+      right: -185px;
+      top: 0px;
+      bottom: 0px;
+      background: darken($green, 2%);
+      width: 235px;
+      display: none;
+      &.animated {
+        display: block;
+      }
+      li {
+        border-bottom: 1px solid rgba(255,255,255,0.2);
+        padding-left: 50px;
+        .line-name {
+          display: block;
+          float: left;
+          padding: 12px 10px 11px;
+          &:hover {
+            opacity: 0.5;
+          }
+        }
+      }
+    }
+    &#station-colors {
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      background: $green;
+      .line-color {
+        float: left;
+        display: block;
+        width: 45px;
+        height: 44px;
+      }
+    }
+    li {
+      cursor: pointer;
+    }
+  }
+}
+
+#currentline {
+  position: fixed;
+  top: 44px;
+  right: -50px;
+  bottom: 0px;
+  background: $yellow;
+  width: 300px;
+  display: none;
+  color: #fff;
+  z-index: 10;
+  &.animated {
+    display: block;
+  }
+  ul {
+    margin: 10px 0 0;
+    padding: 0px;
+    list-style: none;
+    position: relative;
+    li {
+      padding: 10px;
+      cursor: pointer;
+      margin-left: 35px;
+      position: relative;
+      &:not(:hover) {
+        .name {
+          opacity: 0.8;
+        }
+      }
+      span {
+        position: absolute;
+        left: -18px;
+        &:before {
+          content: "";
+          display: block;
+          position: absolute;
+          left: 6px;
+          height: 20px;
+          width: 5px;
+          background: #fff;
+        }
+        &.first,
+        &.last {
+          width: 16px;
+          height: 16px;
+          top: 11px;
+          background: #fff;
+          border-radius: 20px;
+        }
+        &.first {
+          &:before {
+            top: 10px;
+          }
+        }
+        &.last {
+          &:before {
+            top: -15px;
+          }
+        }
+        &.middle {
+          &:after {
+            content: "";
+            display: block;
+            position: absolute;
+            left: 6px;
+            top: 6px;
+            height: 5px;
+            width: 15px;
+            background: #fff;
+          }
+          &:before {
+            height: 40px;
+            top: -13px;
+          }
+        }
+      }
+    }
+  }
+  #closeLine {
+    color: #fff;
+    position: absolute;
+    top: 0px;
+    left: -38px;
+    padding: 10px 12px;
+    background: darken($yellow, 5%);
+    &:hover {
+      text-decoration: none;
+      background: lighten($yellow, 5%);
+    }
+  }
+  h3 {
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px 10px 0;
+    margin: 0;
+    font-size: 18px;
+    opacity: 0.5;
+  }
+}
+
+#station {
+  z-index: 9;
+  position: fixed;
+  background: #fff;
+  bottom: -50px;
+  right: 0px;
+  padding-bottom: 65px;
+  // height: 350px;
+  left: 44px;
+  display: none;
+  &.animated {
+    display: block;
+  }
+  h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    color: #333;
+    margin: 10px 10px 5px;
+  }
+  h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    margin: 0px 10px 10px;
+    color: #999;
+  }
+  .meta {
+    margin-left: 10px;
+    width: 450px;
+    .column {
+      float: left;
+      margin-right: 20px;
+      strong {
+        display: block;
+      }
+      span {
+        font-size: 16px;
+      }
+    }
+  }
+  #excerpt {
+    margin: 10px 0 0 10px;
+    width: 700px;
+     p {
+      margin-bottom: 5px;
+     }
+  }
+  #wikilink {
+    color: $green;
+    display: block;
+    margin-left: 10px;
+    span {
+      font-size: 12px;
+      margin-left: 5px;
+    }
+  }
+}
+
+#map {
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 45px;
+  z-index: 1;
+}

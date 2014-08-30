@@ -1,0 +1,15 @@
+<nav id="lines" ng-mouseenter="overClass = 'animated bounceInLeft'" ng-mouseleave="overClass = 'animated bounceOutLeft'">
+	<ul id="station-colors">
+		<li ng-repeat="line in lines" class="{{line.id}} clearfix" ng-click="showLine(line.properties)">
+			<span style="background: {{line.properties.color}}" class="line-color"></span>
+		</li>
+	</ul>
+
+	<ul id="station-names" class="{{overClass}}">
+		<li ng-repeat="line in lines" class="{{line.id}} clearfix" ng-click="showLine(line.properties)">
+			<span class="line-name">{{line.properties.name}}</span>
+		</li>
+	</ul>
+
+	<a href="https://github.com/Joe8Bit/abandoned-stations" id="github" title="View this project on Github"><span class="icon-github"></span></a>
+</nav>
