@@ -23,8 +23,6 @@ angular.module('abandonedStationsApp')
                 })
                 .setView([51.55, -0.174], 11);
 
-        var zoom = new L.Control.Zoom({ position: 'bottomright' }).addTo(map);
-
         var isSet;
 
         scope.$on('tubeLineDataLoaded', function (e, clean, raw) {
@@ -40,15 +38,6 @@ angular.module('abandonedStationsApp')
                             return feature.properties;
                         },
                         onEachFeature: function (feature, layer) {
-                            if (layer.setIcon) {
-                                layer.setIcon(L.icon({
-                                    iconUrl: "/images/icon.svg",
-                                    iconSize: [30, 30],
-                                    iconAnchor: [16, 30],
-                                    popupAnchor: [0, -55],
-                                    className: "stop-icon"
-                                }));
-                            }
                             layer.on('click', function (e) {
                                 // Clicked on a line
                                 if (e.target.feature.properties.color) {
@@ -57,7 +46,6 @@ angular.module('abandonedStationsApp')
                                 }
                                 // Clicked on a station
                                 if (e.target.feature.properties.type) {
-                                    console.log(e)
                                     scope.showLine(LinesSrv.get(e.target.feature.properties.line)[0].properties);
                                     scope.showStation(e.target.feature);
                                     scope.$digest();
@@ -94,9 +82,19 @@ angular.module('abandonedStationsApp')
                     layer.setStyle({
                         opacity: 0.2
                     });
+                    _.each(layer._layers, function (layer) {
+                        if (layer.setOpacity) {
+                            layer.setOpacity(0.2);
+                        }
+                    });
                 });
                 layer.setStyle({
                     opacity: 1
+                });
+                _.each(layer._layers, function (layer) {
+                    if (layer.setOpacity) {
+                        layer.setOpacity(1);
+                    }
                 });
             }
 
@@ -105,6 +103,11 @@ angular.module('abandonedStationsApp')
                 _.each(lineLayers, function (layer) {
                     layer.setStyle({
                         opacity: 0.5
+                    });
+                    _.each(layer._layers, function (layer) {
+                        if (layer.setOpacity) {
+                            layer.setOpacity(1);
+                        }
                     });
                 });
             }

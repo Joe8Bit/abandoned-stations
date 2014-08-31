@@ -1065,7 +1065,8 @@
             "coordinates": [-0.221439, 51.506472]
         },
         "properties": {
-            "type": "Sub-surface",
+            "marker-color": "#f0422b",
+            "type": "Sub-Surface",
             "line": "central",
             "name": "Wood Green",
             "data": {
@@ -1084,13 +1085,14 @@
             "coordinates": [-0.121917, 51.517423]
         },
         "properties": {
+            "marker-color": "#f0422b",
             "type": "Deep",
             "line": "central",
             "name": "British Museum",
             "data": {
                 "type_of_closure": "Station closed",
                 "current_condition": "Demolished",
-                "excerpt": "<p>British Museum was a station on the London Underground, located in Holborn, central London. It was latterly served by the Central line and took its name from the nearby British Museum in Great Russell Street.</p><p>The station was opened by the Central London Railway in 1900. In 1933, with the expansion of Holborn station, less than 100 yards away, British Museum station was permanently closed. It was subsequently utilised as a military office and command post, but in 1989 the surface building was demolished and the remainder of the station is wholly disused.</p>",
+                "excerpt": "<p>British Museum was a station on the London Underground, located in Holborn, central London. It was latterly served by the Central line and took its name from the nearby British Museum in Great Russell Street.</p><p>The station was opened by the Central London Railway in 1900. In 1933, with the expansion of Holborn station, less than 100 yards away, British Museum station was permanently closed. It was subsequently utilised as a military office and command post, but in 1989 the Surface building was demolished and the remainder of the station is wholly disused.</p>",
                 "wiki_link": "http://en.wikipedia.org/wiki/British_Museum_tube_station",
                 "opened": "1900/08/30",
                 "closed": "1933/09/24"
@@ -1103,6 +1105,7 @@
             "coordinates": [0.046190, 51.625098]
         },
         "properties": {
+            "marker-color": "#f0422b",
             "type": "Surface",
             "line": "central",
             "name": "Buckhurst Hill",
@@ -1122,6 +1125,7 @@
             "coordinates": [0.164077, 51.711435]
         },
         "properties": {
+            "marker-color": "#f0422b",
             "type": "Surface",
             "line": "central",
             "name": "North Weald",
@@ -1141,6 +1145,7 @@
             "coordinates": [0.203360, 51.712101]
         },
         "properties": {
+            "marker-color": "#f0422b",
             "type": "Surface",
             "line": "central",
             "name": "Blake Hall",
@@ -1160,6 +1165,7 @@
             "coordinates": [0.2428, 51.7089]
         },
         "properties": {
+            "marker-color": "#f0422b",
             "type": "Surface",
             "line": "central",
             "name": "Ongar",
@@ -1776,6 +1782,46 @@
             "id": "circle",
             "name": "Circle Line",
             "color": "#ffd300"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point", 
+            "coordinates": [-0.080000, 51.510556]
+        },
+        "properties": {
+            "marker-color": "#ffd300",
+            "type": "Deep",
+            "line": "circle",
+            "name": "Mark Lane",
+            "data": {
+                "type_of_closure": "Station resited",
+                "current_condition": "Building remains",
+                "excerpt": "<p>Mark Lane (latterly Tower Hill) is a disused station on the London Underground. It was served by the Circle and District lines. It takes its name from Mark Lane, the street on which it is located, west of the current Tower Hill station that replaced it in 1967.</p>",
+                "wiki_link": "http://en.wikipedia.org/wiki/Mark_Lane_tube_station",
+                "opened": "1884/10/06",
+                "closed": "1967/02/04"
+            }
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point", 
+            "coordinates": [-0.076667, 51.510000]
+        },
+        "properties": {
+            "marker-color": "#ffd300",
+            "type": "Deep",
+            "line": "circle",
+            "name": "Tower of London",
+            "data": {
+                "type_of_closure": "Station resited",
+                "current_condition": "Demolished",
+                "excerpt": "<p>Tower of London was a London Underground station in the City of London that closed in 1884, less than two years after opening. It was situated near the Tower of London, on a site now occupied by Tower Hill tube station.</p>",
+                "wiki_link": "http://en.wikipedia.org/wiki/Tower_of_London_tube_station",
+                "opened": "1882",
+                "closed": "1884/10/12"
+            }
         }
     }]
 }, {
@@ -3871,6 +3917,366 @@
             "name": "District Line",
             "color": "#00863c"
         }
+    },{
+        "type": "Feature",
+        "geometry": {
+            "type": "Point", 
+            "coordinates": [-0.610000, 51.483000]
+        },
+        "properties": {
+            "marker-color": "#00863c",
+            "type": "surface",
+            "line": "district",
+            "name": "Windsor",
+            "data": {
+                "type_of_closure": "Service withdrawn",
+                "current_condition": "Operated by National Rail",
+                "excerpt": "<p>Windsor & Eton Central station is one of two terminal stations serving the town of Windsor, Berkshire, England. Later the District Railway expanded its services to the west of London. On 1 March 1883 it started a service to Windsor from Mansion House, using the Great Western main line. These trains were not popular, possibly because of the unsuitability of using four-wheel coaches for the non-stop section between Ealing Broadway and Slough, and possibly because Windsor was too affluent and too far from the City at that time to make commuting attractive. The service was discontinued on 30 September 1885.</p>",
+                "wiki_link": "http://en.wikipedia.org/wiki/Windsor_%26_Eton_Central_railway_station",
+                "opened": "1883/03/01",
+                "closed": "1885/09/30"
+            }
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point", 
+            "coordinates": [-0.592, 51.512]
+        },
+        "properties": {
+            "marker-color": "#00863c",
+            "type": "surface",
+            "line": "district",
+            "name": "Slough",
+            "data": {
+                "type_of_closure": "Service withdrawn",
+                "current_condition": "Operated by National Rail",
+                "excerpt": "<p>Slough railway station, in Slough, Berkshire, England, is served by local services operated by First Great Western from Paddington to Reading and main line services on the Great Western Main Line, the original line of the Great Western Railway. It is also the junction for the Windsor branch. From 1 March 1883, the station was served by District Railway services running between Mansion House and Windsor & Eton Central. The service was discontinued as uneconomic after 30 September 1885.</p>",
+                "wiki_link": "http://en.wikipedia.org/wiki/Slough_railway_station",
+                "opened": "1883/03/01",
+                "closed": "1885/09/30"
+            }
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point", 
+            "coordinates": [-0.542000, 51.508000]
+        },
+        "properties": {
+            "marker-color": "#00863c",
+            "type": "surface",
+            "line": "district",
+            "name": "Langley",
+            "data": {
+                "type_of_closure": "Service withdrawn",
+                "current_condition": "Operated by National Rail",
+                "excerpt": "<p>Langley railway station is a railway station in Langley, a suburb of Slough, Berkshire, England. From 1 March 1883, the station was served by District Railway services running between Mansion House and Windsor. The service was discontinued as uneconomic after 30 September 1885.</p>",
+                "wiki_link": "http://en.wikipedia.org/wiki/Langley_railway_station",
+                "opened": "1883/03/01",
+                "closed": "1885/09/30"
+            }
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point", 
+            "coordinates": [-0.472264, 51.509942]
+        },
+        "properties": {
+            "marker-color": "#00863c",
+            "type": "surface",
+            "line": "district",
+            "name": "West Drayton",
+            "data": {
+                "type_of_closure": "Service withdrawn",
+                "current_condition": "Operated by National Rail",
+                "excerpt": "<p>West Drayton railway station is a railway station serving West Drayton and Yiewsley, western suburbs of London, England. The station is served by local services operated by First Great Western from Paddington to Reading stations. From 1 March 1883, the station was served by District Railway services running between Mansion House and Windsor. The service was discontinued as uneconomic after 30 September 1885.</p>",
+                "wiki_link": "http://en.wikipedia.org/wiki/West_Drayton_railway_station",
+                "opened": "1883/03/01",
+                "closed": "1885/09/30"
+            }
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point", 
+            "coordinates": [-0.4201, 51.502]
+        },
+        "properties": {
+            "marker-color": "#00863c",
+            "type": "surface",
+            "line": "district",
+            "name": "Hayes",
+            "data": {
+                "type_of_closure": "Service withdrawn",
+                "current_condition": "Operated by National Rail",
+                "excerpt": "<p>Hayes & Harlington is a railway station in Hayes and Harlington in the London Borough of Hillingdon. From 1 March 1883, the station (then named Hayes) was served by District Railway services running between Mansion House and Windsor. The service was discontinued as uneconomic after 30 September 1885.</p>",
+                "wiki_link": "http://en.wikipedia.org/wiki/Hayes_%26_Harlington_railway_station",
+                "opened": "1883/03/01",
+                "closed": "1885/09/30"
+            }
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point", 
+            "coordinates": [-0.378300, 51.506000]
+        },
+        "properties": {
+            "marker-color": "#00863c",
+            "type": "surface",
+            "line": "district",
+            "name": "Southall",
+            "data": {
+                "type_of_closure": "Service withdrawn",
+                "current_condition": "Operated by National Rail",
+                "excerpt": "<p>Southall is a railway station in Southall, west London. From 1 March 1883 to 30 September 1885 (when the service was discontinued as uneconomic) the District Railway ran trains between Mansion House and Windsor which called at the station.</p>",
+                "wiki_link": "http://en.wikipedia.org/wiki/Southall_railway_station",
+                "opened": "1883/03/01",
+                "closed": "1885/09/30"
+            }
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point", 
+            "coordinates": [-0.354444, 51.471667]
+        },
+        "properties": {
+            "marker-color": "#00863c",
+            "type": "surface",
+            "line": "district",
+            "name": "Houslow Town",
+            "data": {
+                "type_of_closure": "Station and route closed, station resited",
+                "current_condition": "Demolished",
+                "excerpt": "<p>Hounslow Town was a London Underground station located in Hounslow, west London. It was first opened in 1883 by the District Railway, the precursor to today's District line, on a branch line which is now disused. The station was situated at the eastern end of Hounslow High Street, at the junction with Kingsley Road. It closed permanently in 1909. Its site is now occupied by Hounslow bus garage.</p>",
+                "wiki_link": "http://en.wikipedia.org/wiki/Hounslow_Town_tube_station",
+                "opened": "1883",
+                "closed": "1909/05/01"
+            }
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point", 
+            "coordinates": [-0.3389, 51.5116]
+        },
+        "properties": {
+            "marker-color": "#00863c",
+            "type": "surface",
+            "line": "district",
+            "name": "Hanwell",
+            "data": {
+                "type_of_closure": "Service withdrawn",
+                "current_condition": "Operated by National Rail",
+                "excerpt": "<p>Hanwell railway station is a railway station in Hanwell in the London Borough of Ealing. The station is managed by First Great Western but served by local services operated by Heathrow Connect from London Paddington to Heathrow Airport.From 1 March 1883, the station was served by District Railway services running between Mansion House and Windsor; the service was discontinued as uneconomic after 30 September 1885.</p>",
+                "wiki_link": "http://en.wikipedia.org/wiki/Hanwell_railway_station",
+                "opened": "1883/03/01",
+                "closed": "1885/09/30"
+            }
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point", 
+            "coordinates": [-0.3203, 51.5137]
+        },
+        "properties": {
+            "marker-color": "#00863c",
+            "type": "surface",
+            "line": "district",
+            "name": "Castle Hill (Ealing Dean)",
+            "data": {
+                "type_of_closure": "Service withdrawn",
+                "current_condition": "Operated by National Rail",
+                "excerpt": "<p>West Ealing is a railway station on the Great Western Main Line from London Paddington. It is on Drayton Green Road (B452).The station is manned for part of the day. There is a passenger-operated ticket machine at this location and a PERTIS passenger-operated ticket machine issuing 'Permit to Travel' tickets which are exchanged on-train or at manned stations for travel tickets. The ticket machines are located just inside the station entrance on the north side.</p>",
+                "wiki_link": "http://en.wikipedia.org/wiki/West_Ealing_railway_station",
+                "opened": "1871",
+                "closed": "1885/09/30"
+            }
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point", 
+            "coordinates": [-0.270700, 51.499400]
+        },
+        "properties": {
+            "marker-color": "#00863c",
+            "type": "surface",
+            "line": "district",
+            "name": "South Acton",
+            "data": {
+                "type_of_closure": "Route closed",
+                "current_condition": "Operated by National Rail",
+                "excerpt": "<p>South Acton railway station is in the London Borough of Ealing in South Acton, west London. It is on the North London Line, and the station and all trains serving it are operated by London Overground. It is in Travelcard Zone 3. Until 1959 it was also served by the District line of the London Underground.</p>",
+                "wiki_link": "http://en.wikipedia.org/wiki/South_Acton_railway_station",
+                "opened": "1915/06/13",
+                "closed": "1959/02/28"
+            }
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point", 
+            "coordinates": [-0.1947, 51.4913]
+        },
+        "properties": {
+            "marker-color": "#00863c",
+            "type": "Deep",
+            "line": "district",
+            "name": "Earl's Court",
+            "data": {
+                "type_of_closure": "Station resited",
+                "current_condition": "Demolished",
+                "excerpt": "<p>Earl's Court tube station is a London Underground station in Earls Court. The station is located between Earls Court Road and Warwick Road (both A3220). It is on the boundary of Travelcard Zone 1 and 2 and is in both zones. The original station closed when the current station opened to the west</p>",
+                "wiki_link": "http://en.wikipedia.org/wiki/Earl%27s_Court_tube_station",
+                "opened": "1878/01/31",
+                "closed": "1869/04/12"
+            }
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point", 
+            "coordinates": [-0.080000, 51.510556]
+        },
+        "properties": {
+            "marker-color": "#00863c",
+            "type": "Deep",
+            "line": "district",
+            "name": "Mark Lane",
+            "data": {
+                "type_of_closure": "Station resited",
+                "current_condition": "Building remains",
+                "excerpt": "<p>Mark Lane (latterly Tower Hill) is a disused station on the London Underground. It was served by the Circle and District lines. It takes its name from Mark Lane, the street on which it is located, west of the current Tower Hill station that replaced it in 1967.</p>",
+                "wiki_link": "http://en.wikipedia.org/wiki/Mark_Lane_tube_station",
+                "opened": "1884/10/06",
+                "closed": "1967/02/04"
+            }
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point", 
+            "coordinates": [-0.076667, 51.510000]
+        },
+        "properties": {
+            "marker-color": "#00863c",
+            "type": "Deep",
+            "line": "district",
+            "name": "Tower of London",
+            "data": {
+                "type_of_closure": "Station resited",
+                "current_condition": "Demolished",
+                "excerpt": "<p>Tower of London was a London Underground station in the City of London that closed in 1884, less than two years after opening. It was situated near the Tower of London, on a site now occupied by Tower Hill tube station.</p>",
+                "wiki_link": "http://en.wikipedia.org/wiki/Tower_of_London_tube_station",
+                "opened": "1882",
+                "closed": "1884/10/12"
+            }
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point", 
+            "coordinates": [-0.072200, 51.515200]
+        },
+        "properties": {
+            "marker-color": "#00863c",
+            "type": "surface",
+            "line": "district",
+            "name": "Aldgate East",
+            "data": {
+                "type_of_closure": "Station resited",
+                "current_condition": "Demolished",
+                "excerpt": "<p>The name 'Commercial Road' had been proposed for the original Aldgate East station, which opened on 6 October 1884 as part of an eastern extension to the District Railway (now the District line), some 500 feet to the west of the current station, close to the Metropolitan Railway's Aldgate station. However, when the curve to join the Metropolitan Railway from Liverpool Street was built, the curve had to be particularly sharp due to the presence of Aldgate East station, at which it needed to be straight.</p>",
+                "wiki_link": "http://en.wikipedia.org/wiki/West_Ealing_railway_station",
+                "opened": "1871",
+                "closed": "1885/09/30"
+            }
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point", 
+            "coordinates": [-0.064583, 51.517778]
+        },
+        "properties": {
+            "marker-color": "#00863c",
+            "type": "surface",
+            "line": "district",
+            "name": "St Mary's (Whitechapel Road)",
+            "data": {
+                "type_of_closure": "Station closed",
+                "current_condition": "Bombed in WW2; demolished",
+                "excerpt": "<p>St. Mary's (Whitechapel Road) was a station on the District and Metropolitan lines of the London Underground. It was located between Whitechapel and Aldgate East stations, in the East End of London. The station was closed in 1938 in advance of the relocation of Aldgate East to within minimal distance, rendering St. Mary's inessential. The station building was severely damaged during the Blitz of the Second World War and subsequently was demolished.</p>",
+                "wiki_link": "http://en.wikipedia.org/wiki/St._Mary%27s_(Whitechapel_Road)_tube_station",
+                "opened": "1884/03/03",
+                "closed": "1938/04/30"
+            }
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point", 
+            "coordinates": [0.640000, 51.541000]
+        },
+        "properties": {
+            "marker-color": "#00863c",
+            "type": "surface",
+            "line": "district",
+            "name": "Leigh-on-Sea",
+            "data": {
+                "type_of_closure": "Service withdrawn",
+                "current_condition": "Operated by National Rail",
+                "excerpt": "<p>Leigh-on-Sea railway station is a station on the London, Tilbury and Southend Railway, in the town of Leigh-on-Sea near Southend, England. When the London Underground's District line operated a non-stop excursion train service through to the Southend area, Leigh-on-Sea was the first station to be called at after Barking. Limited excursion service withdrawn as a wartime measure and not restarted.</p>",
+                "wiki_link": "http://en.wikipedia.org/wiki/Leigh-on-Sea_railway_station",
+                "opened": "1856",
+                "closed": "1939/09/30"
+            }
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point", 
+            "coordinates": [0.711667, 51.537222]
+        },
+        "properties": {
+            "marker-color": "#00863c",
+            "type": "surface",
+            "line": "district",
+            "name": "Southend Central",
+            "data": {
+                "type_of_closure": "Service withdrawn",
+                "current_condition": "Operated by National Rail",
+                "excerpt": "<p>Southend Central is a railway station on the London, Tilbury and Southend Railway. It was opened in 1856 by the London, Tilbury and Southend Railway and was the original eastern terminus of the line, which was later extended to Shoeburyness railway station</p>",
+                "wiki_link": "http://en.wikipedia.org/wiki/Southend_Central_railway_station",
+                "opened": "1856",
+                "closed": "1939/09/30"
+            }
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point", 
+            "coordinates": [0.795000, 51.531000]
+        },
+        "properties": {
+            "marker-color": "#00863c",
+            "type": "surface",
+            "line": "district",
+            "name": "Shoeburyness",
+            "data": {
+                "type_of_closure": "Service withdrawn",
+                "current_condition": "Operated by National Rail",
+                "excerpt": "<p>Shoeburyness is a railway station located in the small town of Shoeburyness in the borough and unitary district of Southend-on-Sea in Essex, England. Limited excursion service withdrawn as a wartime measure and not restarted.</p>",
+                "wiki_link": "http://en.wikipedia.org/wiki/Shoeburyness_railway_station",
+                "opened": "1856",
+                "closed": "1939/09/30"
+            }
+        }
     }]
 }, {
     "type": "FeatureCollection",
@@ -4671,6 +5077,46 @@
             "name": "Hammersmith & City Line",
             "color": "#f585a0"
         }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point", 
+            "coordinates": [-0.226400, 51.505800]
+        },
+        "properties": {
+            "marker-color": "#f585a0",
+            "type": "elevated",
+            "line": "hammersmith",
+            "name": "Shepard's Bush Market",
+            "data": {
+                "type_of_closure": "Station resited",
+                "current_condition": "Demolished",
+                "excerpt": "<p>Shepherd's Bush Market tube station is a London Underground station in the district of Shepherd's Bush in west London, England. It is on the Circle and Hammersmith & City Lines, between Goldhawk Road and Wood Lane stations, and it is in Travelcard Zone 2. The origin station was replaced by Shepherd's Bush (now Shepherd's Bush Market) to the north and Goldhawk Road to the south</p>",
+                "wiki_link": "http://en.wikipedia.org/wiki/Shepherd%27s_Bush_Market_tube_station",
+                "opened": "1914/03/14",
+                "closed": "1864/06/31"
+            }
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point", 
+            "coordinates": [-0.225750, 51.508043]
+        },
+        "properties": {
+            "marker-color": "#f585a0",
+            "type": "elevated",
+            "line": "hammersmith",
+            "name": "White City",
+            "data": {
+                "type_of_closure": "Station resited",
+                "current_condition": "Demolished",
+                "excerpt": "<p>This station closed following a fire. Wood Lane station is close to its location.</p>",
+                "wiki_link": "http://en.wikipedia.org/wiki/Wood_Lane_(Metropolitan_line)_tube_station",
+                "opened": "1908",
+                "closed": "1959/10/24"
+            }
+        }
     }]
 }, {
     "type": "FeatureCollection",
@@ -5385,6 +5831,26 @@
             "id": "jubilee",
             "name": "Jubilee Line",
             "color": "#949ca1"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point", 
+            "coordinates": [-0.124750, 51.508000]
+        },
+        "properties": {
+            "marker-color": "#949ca1",
+            "type": "deep",
+            "line": "jubilee",
+            "name": "Charing Cross",
+            "data": {
+                "type_of_closure": "Partial",
+                "current_condition": "Remainder of station in use",
+                "excerpt": "<p>Two platforms are still functional but were removed from public use when the Jubilee line extension to Stratford was opened in 1999. Although now closed to the public, the Jubilee line platforms of Charing Cross station are still maintained by TfL for use by film and television makers needing a modern Underground station location.</p>",
+                "wiki_link": "http://en.wikipedia.org/wiki/Charing_Cross_tube_station",
+                "opened": "1979/05/01",
+                "closed": "1999/11/19"
+            }
         }
     }]
 }, {
@@ -10367,6 +10833,126 @@
             "id": "bakerloo",
             "name": "Bakerloo Line",
             "color": "#b26000"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point", 
+            "coordinates": [-0.385, 51.644]
+        },
+        "properties": {
+            "marker-color": "#b26000",
+            "type": "Surface",
+            "line": "bakerloo",
+            "name": "Bushey",
+            "data": {
+                "type_of_closure": "Service withdrawn",
+                "current_condition": "Operated by National Rail",
+                "excerpt": "<p>Bushey railway station serves the towns of Bushey and Oxhey and is situated on the Watford DC Line, 8 km (5.0 mi) north of Harrow & Wealdstone. London Underground's Bakerloo line trains served the station from 16 April 1917 until 24 September 1982.</p>",
+                "wiki_link": "http://en.wikipedia.org/wiki/Bushey_railway_station",
+                "opened": "1841",
+                "closed": "1982/09/24"
+            }
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point", 
+            "coordinates": [-0.386, 51.629]
+        },
+        "properties": {
+            "marker-color": "#b26000",
+            "type": "Surface",
+            "line": "bakerloo",
+            "name": "Carpenters Park",
+            "data": {
+                "type_of_closure": "Service withdrawn",
+                "current_condition": "Operated by National Rail",
+                "excerpt": "<p>Carpenders Park railway station lies between the Hertfordshire suburb of Carpenders Park and the South Oxhey housing estate, 3 km (1.9 mi) south of Watford Junction on the Watford DC Line. London Underground's Bakerloo line trains served the station from 16 April 1917 until 24 September 1982. London Overground services from London Euston currently serve this station.</p>",
+                "wiki_link": "http://en.wikipedia.org/wiki/Carpenders_Park_railway_station",
+                "opened": "1917/04/16",
+                "closed": "1982/09/24"
+            }
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point", 
+            "coordinates": [-0.3681, 51.6095]
+        },
+        "properties": {
+            "marker-color": "#b26000",
+            "type": "Surface",
+            "line": "bakerloo",
+            "name": "Hatch End",
+            "data": {
+                "type_of_closure": "Service withdrawn",
+                "current_condition": "Operated by National Rail",
+                "excerpt": "<p>Hatch End railway station is in the London Borough of Harrow, in north London, and in Travelcard Zone 6. The station was served by the Baker Street and Waterloo Railway (Bakerloo) from 16 April 1917, when Bakerloo services were extended from Willesden Junction to Watford Junction. The station was again renamed Hatch End (for Pinner) on 1 February 1920, and finally Hatch End on 11 June 1956. Bakerloo line services were withdrawn on 24 September 1982.</p>",
+                "wiki_link": "http://en.wikipedia.org/wiki/Hatch_End_railway_station",
+                "opened": "1917/04/16",
+                "closed": "1982/09/24"
+            }
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point", 
+            "coordinates": [-0.3564, 51.6024]
+        },
+        "properties": {
+            "marker-color": "#b26000",
+            "type": "Surface",
+            "line": "bakerloo",
+            "name": "Headstone Lane",
+            "data": {
+                "type_of_closure": "Service withdrawn",
+                "current_condition": "Operated by National Rail",
+                "excerpt": "<p>Headstone Lane is a railway station near Headstone, in the London Borough of Harrow. The station is in Travelcard Zone 5.The station was served by the Bakerloo line of the London Underground between 1917 and 1982 and it is planned that by 2025 when the Bakerloo line receives new rolling stock, London Overground services will be withdrawn and the Bakerloo line will be re-extended to Watford Junction.</p>",
+                "wiki_link": "http://en.wikipedia.org/wiki/Headstone_Lane_railway_station",
+                "opened": "1917/04/16",
+                "closed": "1982/09/24"
+            }
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point", 
+            "coordinates": [-0.391812, 51.652597]
+        },
+        "properties": {
+            "marker-color": "#b26000",
+            "type": "Surface",
+            "line": "bakerloo",
+            "name": "Watford High Street",
+            "data": {
+                "type_of_closure": "Service withdrawn",
+                "current_condition": "Operated by National Rail",
+                "excerpt": "<p>Watford High Street railway station is a railway station in Watford, Hertfordshire, United Kingdom. It is served by the Watford DC Line on the London Overground network.</p>",
+                "wiki_link": "http://en.wikipedia.org/wiki/Watford_High_Street_railway_station",
+                "opened": "1917/04/16",
+                "closed": "1982/09/24"
+            }
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point", 
+            "coordinates": [-0.391812, 51.652597, 51.6635]
+        },
+        "properties": {
+            "marker-color": "#b26000",
+            "type": "Surface",
+            "line": "bakerloo",
+            "name": "Watford Junction",
+            "data": {
+                "type_of_closure": "Service withdrawn",
+                "current_condition": "Operated by National Rail",
+                "excerpt": "<p>The Bakerloo line was extended to Watford Junction in 1917, giving a shared service with mainline electric trains which served Euston and Broad Street stations. However, since 1982[4] the line north of Harrow & Wealdstone has only been served by what is now the London Overground service from Euston station; this service uses these DC lines for its 'all stations' local service.</p>",
+                "wiki_link": "http://en.wikipedia.org/wiki/Watford_Junction_railway_station",
+                "opened": "1917/04/16",
+                "closed": "1982/09/24"
+            }
         }
     }]
 }, {
