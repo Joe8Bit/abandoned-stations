@@ -1,13 +1,15 @@
-<nav id="lines" ng-mouseenter="overClass = 'animated bounceInLeft'" ng-mouseleave="overClass = 'animated bounceOutLeft'">
+<nav id="lines">
 	<ul id="station-colors">
-		<li ng-repeat="line in lines" class="{{line.id}} clearfix" ng-click="showLine(line.properties)">
-			<span style="background: {{line.properties.color}}" class="line-color"></span>
-		</li>
-	</ul>
+		<li 
+			ng-repeat="line in lines"
+			class="{{line.id}} clearfix" 
+			ng-click="showLine(line.properties)"
+			ng-mouseenter="overClass = 'animated bounceInLeft'"
+			ng-mouseleave="overClass = 'animated bounceOutLeft'">
 
-	<ul id="station-names" class="{{overClass}}">
-		<li ng-repeat="line in lines" class="{{line.id}} clearfix" ng-click="showLine(line.properties)">
-			<span class="line-name">{{line.properties.name}}</span>
+			<span style="background: {{line.properties.color}}" class="line-color"></span>
+			<div class="line-name-popup {{overClass}}">{{line.properties.name}}</div>
+			
 		</li>
 	</ul>
 
