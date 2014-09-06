@@ -3925,7 +3925,7 @@
         },
         "properties": {
             "marker-color": "#00863c",
-            "type": "surface",
+            "type": "Surface",
             "line": "district",
             "name": "Windsor",
             "data": {
@@ -3945,7 +3945,7 @@
         },
         "properties": {
             "marker-color": "#00863c",
-            "type": "surface",
+            "type": "Surface",
             "line": "district",
             "name": "Slough",
             "data": {
@@ -3965,7 +3965,7 @@
         },
         "properties": {
             "marker-color": "#00863c",
-            "type": "surface",
+            "type": "Surface",
             "line": "district",
             "name": "Langley",
             "data": {
@@ -3985,7 +3985,7 @@
         },
         "properties": {
             "marker-color": "#00863c",
-            "type": "surface",
+            "type": "Surface",
             "line": "district",
             "name": "West Drayton",
             "data": {
@@ -4005,7 +4005,7 @@
         },
         "properties": {
             "marker-color": "#00863c",
-            "type": "surface",
+            "type": "Surface",
             "line": "district",
             "name": "Hayes",
             "data": {
@@ -4025,7 +4025,7 @@
         },
         "properties": {
             "marker-color": "#00863c",
-            "type": "surface",
+            "type": "Surface",
             "line": "district",
             "name": "Southall",
             "data": {
@@ -4045,7 +4045,7 @@
         },
         "properties": {
             "marker-color": "#00863c",
-            "type": "surface",
+            "type": "Surface",
             "line": "district",
             "name": "Houslow Town",
             "data": {
@@ -4065,7 +4065,7 @@
         },
         "properties": {
             "marker-color": "#00863c",
-            "type": "surface",
+            "type": "Surface",
             "line": "district",
             "name": "Hanwell",
             "data": {
@@ -4085,7 +4085,7 @@
         },
         "properties": {
             "marker-color": "#00863c",
-            "type": "surface",
+            "type": "Surface",
             "line": "district",
             "name": "Castle Hill (Ealing Dean)",
             "data": {
@@ -4105,7 +4105,7 @@
         },
         "properties": {
             "marker-color": "#00863c",
-            "type": "surface",
+            "type": "Surface",
             "line": "district",
             "name": "South Acton",
             "data": {
@@ -4185,7 +4185,7 @@
         },
         "properties": {
             "marker-color": "#00863c",
-            "type": "surface",
+            "type": "Surface",
             "line": "district",
             "name": "Aldgate East",
             "data": {
@@ -4205,7 +4205,7 @@
         },
         "properties": {
             "marker-color": "#00863c",
-            "type": "surface",
+            "type": "Surface",
             "line": "district",
             "name": "St Mary's (Whitechapel Road)",
             "data": {
@@ -4225,7 +4225,7 @@
         },
         "properties": {
             "marker-color": "#00863c",
-            "type": "surface",
+            "type": "Surface",
             "line": "district",
             "name": "Leigh-on-Sea",
             "data": {
@@ -4245,7 +4245,7 @@
         },
         "properties": {
             "marker-color": "#00863c",
-            "type": "surface",
+            "type": "Surface",
             "line": "district",
             "name": "Southend Central",
             "data": {
@@ -4265,7 +4265,7 @@
         },
         "properties": {
             "marker-color": "#00863c",
-            "type": "surface",
+            "type": "Surface",
             "line": "district",
             "name": "Shoeburyness",
             "data": {
@@ -5085,7 +5085,7 @@
         },
         "properties": {
             "marker-color": "#f585a0",
-            "type": "elevated",
+            "type": "Elevated",
             "line": "hammersmith",
             "name": "Shepard's Bush Market",
             "data": {
@@ -5105,7 +5105,7 @@
         },
         "properties": {
             "marker-color": "#f585a0",
-            "type": "elevated",
+            "type": "Elevated",
             "line": "hammersmith",
             "name": "White City",
             "data": {
@@ -5840,7 +5840,7 @@
         },
         "properties": {
             "marker-color": "#949ca1",
-            "type": "deep",
+            "type": "Deep",
             "line": "jubilee",
             "name": "Charing Cross",
             "data": {
@@ -7890,6 +7890,486 @@
             "id": "metropolitan",
             "name": "Metropolitan Line",
             "color": "#99005f"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point", 
+            "coordinates": [-0.815102, 51.813903]
+        },
+        "properties": {
+            "marker-color": "#99005f",
+            "type": "Surface",
+            "line": "metropolitan",
+            "name": "Aylesbury",
+            "data": {
+                "type_of_closure": "Service withdrawn",
+                "current_condition": "Operated by Nation Rail",
+                "excerpt": "<p>Aylesbury railway station is a railway station in Aylesbury, Buckinghamshire, England. Aylesbury was also on the Metropolitan Railway (later Metropolitan line) and through trains from Baker Street to Verney Junction operated until 1936. From 1948 to 1961 Aylesbury was the terminus of the Met's main line, on which trains had to change between electric and steam locomotives at Rickmansworth.</p>",
+                "wiki_link": "http://en.wikipedia.org/wiki/Aylesbury_railway_station",
+                "opened": "1863/10/01",
+                "closed": "1961/09/10"
+            }
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point", 
+            "coordinates": [-1.048200, 51.832300]
+        },
+        "properties": {
+            "marker-color": "#99005f",
+            "type": "Surface",
+            "line": "metropolitan",
+            "name": "Brill",
+            "data": {
+                "type_of_closure": "Station and route closed",
+                "current_condition": "Demolished",
+                "excerpt": "<p>Brill railway station was the terminus of a small railway line in Buckinghamshire, England, known as the Brill Tramway. Built and owned by the Duke of Buckingham, it was later operated by London's Metropolitan Railway, and in 1933 briefly became one of the two north-western termini of the London Underground, despite being 45 miles (72 km) and over two hours travelling time from the City of London. Closed when Brill branch was closed due to very low passenger numbers</p>",
+                "wiki_link": "http://en.wikipedia.org/wiki/Brill_railway_station",
+                "opened": "1872/03/01",
+                "closed": "1935/11/20"
+            }
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point", 
+            "coordinates": [-0.917600, 51.911600]
+        },
+        "properties": {
+            "marker-color": "#99005f",
+            "type": "Surface",
+            "line": "metropolitan",
+            "name": "Granborough Road",
+            "data": {
+                "type_of_closure": "Station and route closed",
+                "current_condition": "Demolished",
+                "excerpt": "<p>It was the third station north of Aylesbury on the section of the Metropolitan Railway between Aylesbury and Verney Junction that was abandoned when the Metropolitan Railway became the Metropolitan line in 1936 when it was subsumed into London Transport. London Underground continued to run services as far as Aylesbury until 1961 after which point the terminus became Amersham.. Closed when Verney Junction service was cut back to Aylesbury due to low passenger numbers.</p>",
+                "wiki_link": "http://en.wikipedia.org/wiki/Granborough_Road_railway_station",
+                "opened": "1872/03/01",
+                "closed": "1936/06/03"
+            }
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point", 
+            "coordinates": [-0.709000, 51.704000]
+        },
+        "properties": {
+            "marker-color": "#99005f",
+            "type": "Surface",
+            "line": "metropolitan",
+            "name": "Great Missenden",
+            "data": {
+                "type_of_closure": "Service withdrawn",
+                "current_condition": "Demolished",
+                "excerpt": "<p>When London Underground's Metropolitan line (the successor of the Met) was fully electrified in the late 1950s and early 1960s, a decision was made to run only as far as Amersham. This meant that Great Missenden was henceforth now only served by mainline services. The service was cut back to Amersham when electric locomotive-hauled trains were replaced with A60 Stock trains.</p>",
+                "wiki_link": "http://en.wikipedia.org/wiki/Great_Missenden_railway_station",
+                "opened": "1882",
+                "closed": "1961/09/10"
+            }
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point", 
+            "coordinates": [-0.225833, 51.494444]
+        },
+        "properties": {
+            "marker-color": "#99005f",
+            "type": "Sub-Surface",
+            "line": "metropolitan",
+            "name": "Grove Road (Hammersmith)",
+            "data": {
+                "type_of_closure": "Service withdrawn",
+                "current_condition": "Subsequently closed and demolished",
+                "excerpt": "<p>When London Underground's Metropolitan line (the successor of the Met) was fully electrified in the late 1950s and early 1960s, a decision was made to run only as far as Amersham. This meant that Great Missenden was henceforth now only served by mainline services. The service was cut back to Amersham when electric locomotive-hauled trains were replaced with A60 Stock trains.</p>",
+                "wiki_link": "http://en.wikipedia.org/wiki/Hammersmith_(Grove_Road)_railway_station",
+                "opened": "1869/01/01",
+                "closed": "1916/06/05"
+            }
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point", 
+            "coordinates": [-0.124100, 51.530200]
+        },
+        "properties": {
+            "marker-color": "#99005f",
+            "type": "Sub-Surface",
+            "line": "metropolitan",
+            "name": "King's Cross St. Pancras",
+            "data": {
+                "type_of_closure": "Station resited",
+                "current_condition": "Building remains",
+                "excerpt": "<p>The first underground station at King's Cross opened as part of the original section of the Metropolitan Railway in 1863 and was rearranged in 1868 and 1926. New platforms for the sub-surface lines of the Underground were opened about 400 m (440 yd) to the west in 1941 to make interchanging between the sub-surface lines and the tube lines easier; the 1868 platforms later became the former King's Cross Thameslink station, which closed on 9 December 2007 when the Thameslink service moved to St Pancras International.</p>",
+                "wiki_link": "http://en.wikipedia.org/wiki/King%27s_Cross_St._Pancras_tube_station",
+                "opened": "1863",
+                "closed": "1941/03/09"
+            }
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point", 
+            "coordinates": [-0.169167, 51.530000]
+        },
+        "properties": {
+            "marker-color": "#99005f",
+            "type": "Sub-Surface",
+            "line": "metropolitan",
+            "name": "Lord's",
+            "data": {
+                "type_of_closure": "Station closed",
+                "current_condition": "Demolished",
+                "excerpt": "<p>Lord's was a London Underground station located in St John's Wood, north-west London. It was opened in 1868 by the Metropolitan Railway on its Metropolitan and St John's Wood Railway line, which is now part of the Underground's Metropolitan line. It was known by a number of different names throughout its history, but its name upon closure in 1939 was taken from the nearby Lord's Cricket Ground.</p>",
+                "wiki_link": "http://en.wikipedia.org/wiki/Lord%27s_tube_station",
+                "opened": "1868/04/13",
+                "closed": "1939/11/19"
+            }
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point", 
+            "coordinates": [-0.176667, 51.536111]
+        },
+        "properties": {
+            "marker-color": "#99005f",
+            "type": "Sub-Surface",
+            "line": "metropolitan",
+            "name": "Marlborough Road",
+            "data": {
+                "type_of_closure": "Station closed",
+                "current_condition": "Building remains",
+                "excerpt": "<p>Marlborough Road (sometimes shortened to Marlboro Road) is a disused London Underground station in St John's Wood, north-west London. It opened in 1868 on the Metropolitan & St. John's Wood Railway, the first northward extension from Baker Street of the Metropolitan Railway (now the Metropolitan line)</p>",
+                "wiki_link": "http://en.wikipedia.org/wiki/Marlborough_Road_tube_station",
+                "opened": "1868",
+                "closed": "1939/11/19"
+            }
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point", 
+            "coordinates": [-0.295300, 51.572200]
+        },
+        "properties": {
+            "marker-color": "#99005f",
+            "type": "Surface",
+            "line": "metropolitan",
+            "name": "Preston Road",
+            "data": {
+                "type_of_closure": "Station resited",
+                "current_condition": "Demolished",
+                "excerpt": "<p>The Metropolitan Railway was extended from Willesden Green to Harrow on 2 August 1880, but originally there were no stations between Neasden and Harrow. A station on the eastern side of the Preston Road bridge was opened on 21 May 1908, and was originally named Preston Road Halt for Uxendon and Kenton; it was later renamed Preston Road. During 1931–32, it was re-sited on the opposite side of the road bridge, and the work was carried out in two stages: the southbound platform was re-sited on 22 November 1931, and the northbound on 3 January 1932.</p>",
+                "wiki_link": "http://en.wikipedia.org/wiki/Preston_Road_tube_station",
+                "opened": "1908/05/21",
+                "closed": "1932/01/02"
+            }
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point", 
+            "coordinates": [-0.929660, 51.863810]
+        },
+        "properties": {
+            "marker-color": "#99005f",
+            "type": "Surface",
+            "line": "metropolitan",
+            "name": "Quainton Road",
+            "data": {
+                "type_of_closure": "Service withdrawn, transfered to LNER",
+                "current_condition": "Building remains",
+                "excerpt": "<p>In 1933 the Metropolitan Railway was taken into public ownership to become the Metropolitan line of the London Passenger Transport Board's London Underground, including Quainton Road. The LPTB aimed to move away from freight operations, and saw no way in which the rural parts of the MR could be made into viable passenger routes. In 1935 the Brill Tramway was closed. From 1936 Underground trains were withdrawn north of Aylesbury, leaving the London and North Eastern Railway (successor to the GCR) as the only operator using the station, although Underground services were restored for a short period in the 1940s.</p>",
+                "wiki_link": "http://en.wikipedia.org/wiki/Quainton_Road_railway_station",
+                "opened": "1868/09/23",
+                "closed": "1936/07/06"
+            }
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point", 
+            "coordinates": [-0.784000, 51.788000]
+        },
+        "properties": {
+            "marker-color": "#99005f",
+            "type": "Surface",
+            "line": "metropolitan",
+            "name": "Stoke Maindeville",
+            "data": {
+                "type_of_closure": "Service withdrawn",
+                "current_condition": "Operated by National Rail",
+                "excerpt": "<p>When London Underground's Metropolitan line (the successor of the Met) was fully electrified in the late 1950s and early 1960s, a decision was made to run only as far as Amersham. This meant that Stoke Mandeville was henceforth now only served by mainline services</p>",
+                "wiki_link": "http://en.wikipedia.org/wiki/Stoke_Mandeville_railway_station",
+                "opened": "1892/09/01",
+                "closed": "1961/09/10"
+            }
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point", 
+            "coordinates": [-0.176667, 51.543611]
+        },
+        "properties": {
+            "marker-color": "#99005f",
+            "type": "Sub-Surface",
+            "line": "metropolitan",
+            "name": "Swiss Cottage",
+            "data": {
+                "type_of_closure": "Station Closed",
+                "current_condition": "Demolished",
+                "excerpt": "<p>Swiss Cottage is a disused London Underground station. It was opened in 1868 as the northern terminus of the Metropolitan and St John's Wood Railway, the first northward branch extension from Baker Street of the Metropolitan Railway (now the Metropolitan line). From here (starting in 1879) the line was later extended north into Middlesex, Hertfordshire and Buckinghamshire reaching Watford, Aylesbury, Chesham and Uxbridge.</p>",
+                "wiki_link": "http://en.wikipedia.org/wiki/Swiss_Cottage_(Metropolitan_line)_tube_station",
+                "opened": "1868",
+                "closed": "1940/08/17"
+            }
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point", 
+            "coordinates": [-0.216900, 51.505400]
+        },
+        "properties": {
+            "marker-color": "#99005f",
+            "type": "Sub-Surface",
+            "line": "metropolitan",
+            "name": "Uxbridge Road",
+            "data": {
+                "type_of_closure": "Station Closed",
+                "current_condition": "Demolished",
+                "excerpt": "<p>In 1905 the station became a branch of the Metropolitan Railway, and later London Underground's Metropolitan line. Uxbridge Road station closed on 21 October 1940 during World War II, when the West London Line was put out of service during the Blitz. Closed after bombing of the line during World War II, due to low passenger numbers</p>",
+                "wiki_link": "http://en.wikipedia.org/wiki/Uxbridge_Road_tube_station",
+                "opened": "1869/11/01",
+                "closed": "1940/10/21"
+            }
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point", 
+            "coordinates": [-0.930000, 51.940600]
+        },
+        "properties": {
+            "marker-color": "#99005f",
+            "type": "Surface",
+            "line": "metropolitan",
+            "name": "Verney Junction",
+            "data": {
+                "type_of_closure": "Station and route closed",
+                "current_condition": "Demolished",
+                "excerpt": "<p>Verney Junction was a railway station at a junction serving four directions between 1868 and 1968 and from where excursions as far as Ramsgate could be booked. Situated fifty miles from Baker Street, the station is one of London's disused Underground stations and, although it never carried heavy traffic, it was important in the expansion of the Metropolitan Railway into what became Metro-land.</p>",
+                "wiki_link": "http://en.wikipedia.org/wiki/Verney_Junction_railway_station",
+                "opened": "1868/09/21",
+                "closed": "1936/07/04"
+            }
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point", 
+            "coordinates": [-0.902100, 51.855400]
+        },
+        "properties": {
+            "marker-color": "#99005f",
+            "type": "Surface",
+            "line": "metropolitan",
+            "name": "Waddesdon",
+            "data": {
+                "type_of_closure": "Station and route closed",
+                "current_condition": "Demolished",
+                "excerpt": "<p>The station was first opened as Waddesdon Manor by the Metropolitan Railway on 1 January 1897. 'Manor' was dropped from the name on 1 October 1922.[1] It was the first station north of Aylesbury on the section of the Metropolitan Railway between Aylesbury and Verney Junction</p>",
+                "wiki_link": "http://en.wikipedia.org/wiki/Waddesdon_railway_station",
+                "opened": "1897/01/01",
+                "closed": "1936/07/06"
+            }
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point", 
+            "coordinates": [-0.946800, 51.851900]
+        },
+        "properties": {
+            "marker-color": "#99005f",
+            "type": "Surface",
+            "line": "metropolitan",
+            "name": "Waddesdon Road",
+            "data": {
+                "type_of_closure": "Station and route closed",
+                "current_condition": "Demolished",
+                "excerpt": "<p>Waddesdon Road railway station, called Waddesdon railway station before 1922, was a small halt in open countryside in Buckinghamshire, England. It was opened in 1871 as part of a short horse-drawn tramway to assist with the transport of goods from and around the Duke of Buckingham's extensive estates in Buckinghamshire and to connect the Duke's estates to the Aylesbury and Buckingham Railway at Quainton Road. In 1872 the line was expanded and converted for passenger use, becoming known as the Brill Tramway. In 1899 the operation of the line was taken over by the London-based Metropolitan Railway</p>",
+                "wiki_link": "http://en.wikipedia.org/wiki/Waddesdon_Road_railway_station",
+                "opened": "1899",
+                "closed": "1935/11/30"
+            }
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point", 
+            "coordinates": [-0.747000, 51.762000]
+        },
+        "properties": {
+            "marker-color": "#99005f",
+            "type": "Surface",
+            "line": "metropolitan",
+            "name": "Wendover",
+            "data": {
+                "type_of_closure": "Service withdrawn",
+                "current_condition": "Operated by National Rail",
+                "excerpt": "<p>The station was opened on 1 September 1892 by the Metropolitan Railway (Met), when the railway was extended from Chalfont Road to Aylesbury Town. The Great Central Railway served the station from 1899, linking the station with Leicester, Nottingham, and Sheffield.</p>",
+                "wiki_link": "http://en.wikipedia.org/wiki/Wendover_railway_station",
+                "opened": "1892/09/01",
+                "closed": "1961/09/10"
+            }
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point", 
+            "coordinates": [-0.201100, 51.521100]
+        },
+        "properties": {
+            "marker-color": "#99005f",
+            "type": "Surface",
+            "line": "metropolitan",
+            "name": "Westbourne Park",
+            "data": {
+                "type_of_closure": "Station resited",
+                "current_condition": "Demolished",
+                "excerpt": "<p>Westbourne Park is a London Underground station on the Circle and Hammersmith and City lines, between Ladbroke Grove and Royal Oak stations, and in Travelcard Zone 2 in The Royal Borough of Kensington and Chelsea . Although the Metropolitan Railway had been extended to Notting Hill and Hammersmith on 1 June 1864 the first station by this name did not open until 1 February 1866.[3] This closed on 31 October 1871 to be replaced the following day by a new station constructed to the east of the original.</p>",
+                "wiki_link": "http://en.wikipedia.org/wiki/Westbourne_Park_tube_station",
+                "opened": "1866/02/01",
+                "closed": "1971/10/31"
+            }
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point", 
+            "coordinates": [-0.955556, 51.845000]
+        },
+        "properties": {
+            "marker-color": "#99005f",
+            "type": "Surface",
+            "line": "metropolitan",
+            "name": "Westcott",
+            "data": {
+                "type_of_closure": "Station and route closed",
+                "current_condition": "Building remains",
+                "excerpt": "<p>Following the 1933 transfer of the Metropolitan Railway to public ownership to become the Metropolitan line of London Transport, Westcott station became a part of the London Underground, despite being over 40 miles (60 km) from central London. The management of London Transport believed it very unlikely that the line could ever be made viable, and Westcott station was closed, along with the rest of the line, from 30 November 1935. </p>",
+                "wiki_link": "http://en.wikipedia.org/wiki/Westcott_railway_station",
+                "opened": "1872",
+                "closed": "1935/11/30"
+            }
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point", 
+            "coordinates": [-0.910400, 51.927700]
+        },
+        "properties": {
+            "marker-color": "#99005f",
+            "type": "Surface",
+            "line": "metropolitan",
+            "name": "Winslow Road",
+            "data": {
+                "type_of_closure": "Station and route closed",
+                "current_condition": "Demolished",
+                "excerpt": "<p>From 2 April 1906, all Metropolitan services north of Harrow South Junction to Verney Junction were run by the Metropolitan and Great Central Joint Railway; this continued until 6 July 1936 when the London Passenger Transport Board, which had taken over the Metropolitan in 1933, withdrew local passenger services as an economy measure.</p>",
+                "wiki_link": "http://en.wikipedia.org/wiki/Winslow_Road_railway_station",
+                "opened": "1868/01/23",
+                "closed": "1936/07/06"
+            }
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point", 
+            "coordinates": [-1.024400, 51.833000]
+        },
+        "properties": {
+            "marker-color": "#99005f",
+            "type": "Surface",
+            "line": "metropolitan",
+            "name": "Wood Siding",
+            "data": {
+                "type_of_closure": "Station and route closed",
+                "current_condition": "Demolished",
+                "excerpt": "<p>In 1933 the Metropolitan Railway was taken into public ownership and became the Metropolitan line of London Transport. As a result, Wood Siding became a station on the London Underground network, despite being over 45 miles (72 km) from the City of London.</p>",
+                "wiki_link": "http://en.wikipedia.org/wiki/Wood_Siding_railway_station",
+                "opened": "1872",
+                "closed": "1935/11/30"
+            }
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point", 
+            "coordinates": [-1.024400, 51.833000]
+        },
+        "properties": {
+            "marker-color": "#99005f",
+            "type": "Surface",
+            "line": "metropolitan",
+            "name": "Wotton",
+            "data": {
+                "type_of_closure": "Station and route closed",
+                "current_condition": "Demolished",
+                "excerpt": "<p>In 1933 the Metropolitan Railway, which leased the line, was taken into public ownership and became the Metropolitan line of London Transport. As a consequence, despite being a small rural station 49 miles (79 km) by train from the City of London, Wotton became a station on the London Underground. Frank Pick, the Chief Executive of the London Passenger Transport Board, aimed to abandon freight operations on the London Underground network, and saw no way in which the more distant parts of the former Metropolitan Railway could ever become viable passenger routes.</p>",
+                "wiki_link": "http://en.wikipedia.org/wiki/Wotton_railway_station",
+                "opened": "1872",
+                "closed": "1935/11/30"
+            }
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point", 
+            "coordinates": [-0.450000, 51.553800]
+        },
+        "properties": {
+            "marker-color": "#99005f",
+            "type": "Surface",
+            "line": "metropolitan",
+            "name": "Hillingdon",
+            "data": {
+                "type_of_closure": "Station resited",
+                "current_condition": "Demolished",
+                "excerpt": "<p>The station was demolished to enable the rerouting of the A40 (Western Avenue) through the site. A new station opened to the south on December 6, 1992, and received the 1994 Underground Station of the Year award. The station was identified in July 2011 as one of the London Borough of Hillingdon's locally listed buildings.</p>",
+                "wiki_link": "http://en.wikipedia.org/wiki/Hillingdon_tube_station",
+                "opened": "1904",
+                "closed": "1992/12/05"
+            }
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point", 
+            "coordinates": [-0.450000, 51.553800]
+        },
+        "properties": {
+            "marker-color": "#99005f",
+            "type": "Surface",
+            "line": "metropolitan",
+            "name": "Uxbridge",
+            "data": {
+                "type_of_closure": "Station resited",
+                "current_condition": "Demolished",
+                "excerpt": "<p>Uxbridge is a London Underground station in Uxbridge in the London Borough of Hillingdon, north-west London. On 4 December 1938 the current station was opened on a new alignment.</p>",
+                "wiki_link": "http://en.wikipedia.org/wiki/Hillingdon_tube_station",
+                "opened": "1904",
+                "closed": "1938/12/03"
+            }
         }
     }]
 }, {
@@ -10334,6 +10814,226 @@
             "name": "Piccadilly Line",
             "color": "#183b96"
         }
+    },     {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point", 
+            "coordinates": [-0.450000, 51.553800]
+        },
+        "properties": {
+            "marker-color": "#183b96",
+            "type": "Surface",
+            "line": "piccadilly",
+            "name": "Hillingdon",
+            "data": {
+                "type_of_closure": "Station resited",
+                "current_condition": "Demolished",
+                "excerpt": "<p>The station was demolished to enable the rerouting of the A40 (Western Avenue) through the site. A new station opened to the south on December 6, 1992, and received the 1994 Underground Station of the Year award. The station was identified in July 2011 as one of the London Borough of Hillingdon's locally listed buildings.</p>",
+                "wiki_link": "http://en.wikipedia.org/wiki/Hillingdon_tube_station",
+                "opened": "1904",
+                "closed": "1992/12/05"
+            }
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point", 
+            "coordinates": [-0.450000, 51.553800]
+        },
+        "properties": {
+            "marker-color": "#183b96",
+            "type": "Surface",
+            "line": "piccadilly",
+            "name": "Uxbridge",
+            "data": {
+                "type_of_closure": "Station resited",
+                "current_condition": "Demolished",
+                "excerpt": "<p>Uxbridge is a London Underground station in Uxbridge in the London Borough of Hillingdon, north-west London. On 4 December 1938 the current station was opened on a new alignment.</p>",
+                "wiki_link": "http://en.wikipedia.org/wiki/Hillingdon_tube_station",
+                "opened": "1904",
+                "closed": "1938/12/03"
+            }
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point", 
+            "coordinates": [-0.115950, 51.512150]
+        },
+        "properties": {
+            "marker-color": "#183b96",
+            "type": "Deep",
+            "line": "piccadilly",
+            "name": "Aldwych",
+            "data": {
+                "type_of_closure": "Station and route closed",
+                "current_condition": "Building remains and platforms sometimes used for cinematic purposes",
+                "excerpt": "<p>Aldwych is a closed station on the London Underground, located in the City of Westminster in central London. It was opened in 1907 with the name Strand, after the street on which it is located, and was the terminus and only station on the short Piccadilly line branch from Holborn that was a relic of the merger of two railway schemes.</p>",
+                "wiki_link": "http://en.wikipedia.org/wiki/Aldwych_tube_station",
+                "opened": "1907",
+                "closed": "1994/09/30"
+            }
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point", 
+            "coordinates": [-0.168900, 51.497100]
+        },
+        "properties": {
+            "marker-color": "#183b96",
+            "type": "Deep",
+            "line": "piccadilly",
+            "name": "Brompton Road",
+            "data": {
+                "type_of_closure": "Station closed",
+                "current_condition": "Mostly demolished, side elevation remains",
+                "excerpt": "<p>Brompton Road is a disused station on the Piccadilly line of the London Underground. It is located between Knightsbridge and South Kensington stations.</p>",
+                "wiki_link": "http://en.wikipedia.org/wiki/Brompton_Road_tube_station",
+                "opened": "1906/12/15",
+                "closed": "1934/07/29"
+            }
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point", 
+            "coordinates": [-0.147500, 51.504444]
+        },
+        "properties": {
+            "marker-color": "#183b96",
+            "type": "Deep",
+            "line": "piccadilly",
+            "name": "Down Street",
+            "data": {
+                "type_of_closure": "Station closed",
+                "current_condition": "Building remains",
+                "excerpt": "<p>Down Street, also known as Down Street (Mayfair), is a disused station of the London Underground's Piccadilly line, which closed in 1932. During World War II it was used as an air-raid shelter, notably by Winston Churchill and his War Cabinet.</p>",
+                "wiki_link": "http://en.wikipedia.org/wiki/Down_Street_tube_station",
+                "opened": "1907",
+                "closed": "1932/05/21"
+            }
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point", 
+            "coordinates": [-0.120100, 51.517400]
+        },
+        "properties": {
+            "marker-color": "#183b96",
+            "type": "Deep",
+            "line": "piccadilly",
+            "name": "Holborn",
+            "data": {
+                "type_of_closure": "Partial",
+                "current_condition": "Remainder of station in use",
+                "excerpt": "<p>Holborn is a London Underground station in Holborn central London. It is served by the Central and Piccadilly lines. On the Central line the station is between Tottenham Court Road and Chancery Lane stations; on the Piccadilly line it is between Covent Garden and Russell Square and is in Travelcard Zone 1.</p>",
+                "wiki_link": "http://en.wikipedia.org/wiki/Holborn_tube_station",
+                "opened": "1906",
+                "closed": "1994/09/30"
+            }
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point", 
+            "coordinates": [-0.314200, 51.499400]
+        },
+        "properties": {
+            "marker-color": "#183b96",
+            "type": "Surface",
+            "line": "piccadilly",
+            "name": "Northfields & Little Ealing",
+            "data": {
+                "type_of_closure": "Station resited",
+                "current_condition": "Demolished",
+                "excerpt": "<p>The station was rebuilt twice. As a halt, the 1908 station was quite basic and provided only rudimentary shelters for passengers. The first rebuilding took place in the 1910s (possibly in conjunction with the 1911 renaming) and the station was given a proper booking hall on the bridge over the tracks and better platform canopies.</p>",
+                "wiki_link": "http://en.wikipedia.org/wiki/Northfields_tube_station",
+                "opened": "1908/04/16",
+                "closed": "1932/05/18"
+            }
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point", 
+            "coordinates": [-0.352200, 51.481400]
+        },
+        "properties": {
+            "marker-color": "#183b96",
+            "type": "Surface",
+            "line": "piccadilly",
+            "name": "Osterley & Spring Grove",
+            "data": {
+                "type_of_closure": "Station resited",
+                "current_condition": "Building remains as retail unit; platforms partially remain",
+                "excerpt": "<p>Osterley station was a replacement for an earlier station, Osterley & Spring Grove, located about 300m to the east on Thornbury Road, which was closed when Osterley opened. The old station is now Osterley Bookshop. The archway to the platforms is still visible inside the bookshop, but is now bricked off. The platforms are still in place, and the entire station may be viewed from a passing train.</p>",
+                "wiki_link": "http://en.wikipedia.org/wiki/Osterley_tube_station",
+                "opened": "1883/05/01",
+                "closed": "1934/03/25"
+            }
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point", 
+            "coordinates": [-0.289444, 51.531389]
+        },
+        "properties": {
+            "marker-color": "#183b96",
+            "type": "Surface",
+            "line": "piccadilly",
+            "name": "Park Royal & Twyford Abbey",
+            "data": {
+                "type_of_closure": "Station resited",
+                "current_condition": "Demolished",
+                "excerpt": "<p>Park Royal & Twyford Abbey was a station on the District Railway (now the District line), on a route now utilised by the Piccadilly line of the London Underground. It opened in 1903. It was located near Twyford Abbey Road, a short distance north of the current Park Royal station which replaced it in 1931.</p>",
+                "wiki_link": "http://en.wikipedia.org/wiki/Park_Royal_%26_Twyford_Abbey_tube_station",
+                "opened": "1903/06/23",
+                "closed": "1932/07/06"
+            }
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point", 
+            "coordinates": [-0.352200, 51.564700]
+        },
+        "properties": {
+            "marker-color": "#183b96",
+            "type": "Surface",
+            "line": "piccadilly",
+            "name": "South Harrow",
+            "data": {
+                "type_of_closure": "Station resited",
+                "current_condition": "Building remains",
+                "excerpt": "<p>The original station building was located approximately 170m south of the existing station and was accessed from South Hill Avenue. It is similar to the building still in use at North Ealing and remains, adjacent to the eastbound platform, in the car park on the north side of the tracks. On 5 July 1935, a new station was opened accessed from Northolt Road.</p>",
+                "wiki_link": "http://en.wikipedia.org/wiki/South_Harrow_tube_station",
+                "opened": "1932",
+                "closed": "1935/07/04"
+            }
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point", 
+            "coordinates": [-0.289444, 51.531389]
+        },
+        "properties": {
+            "marker-color": "#183b96",
+            "type": "Deep",
+            "line": "piccadilly",
+            "name": "York Road",
+            "data": {
+                "type_of_closure": "Station closed",
+                "current_condition": "Building remains and platforms visible between King's Cross and Caledonian Road",
+                "excerpt": "<p>York Road tube station is a disused station on the London Underground. It opened on 15 December 1906 and was one of the original stations on the Great Northern, Piccadilly and Brompton Railway (GNP&BR), now the Piccadilly line.</p>",
+                "wiki_link": "http://en.wikipedia.org/wiki/York_Road_tube_station",
+                "opened": "1906",
+                "closed": "1932/09/17"
+            }
+        }
     }]
 }, {
     "type": "FeatureCollection",
@@ -12330,5 +13030,105 @@
                 "name": "Northern Line",
                 "color":  "#231f20"
             }
-        }]
+        },     {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point", 
+            "coordinates": [-0.097500, 51.529722]
+        },
+        "properties": {
+            "marker-color": "#231f20",
+            "type": "Deep",
+            "line": "northern",
+            "name": "City Road",
+            "data": {
+                "type_of_closure": "Station closed",
+                "current_condition": "Mostly demolished, ventilation tower remains",
+                "excerpt": "<p>City Road is a disused London Underground station in Islington. It was one of the stations built when the City & South London Railway (C&SLR) (now part of the Northern line) opened its extension from Moorgate to Angel on 17 November 1901. It is located between Old Street and Angel.</p>",
+                "wiki_link": "http://en.wikipedia.org/wiki/City_Road_tube_station",
+                "opened": "1901",
+                "closed": "1922/08/08"
+            }
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point", 
+            "coordinates": [-0.105500, 51.552800]
+        },
+        "properties": {
+            "marker-color": "#231f20",
+            "type": "Sub-Surface",
+            "line": "northern",
+            "name": "Drayton Park",
+            "data": {
+                "type_of_closure": "Service withdrawn",
+                "current_condition": "Operated by National Rail",
+                "excerpt": "<p>In 1913 the GN&CR was taken over by the MR. The MR ran the line under its own name until it became part of the London Passenger Transport Board (LPTB) in 1933. In preparation for the LPTB's 'Northern Heights' plan the line was transferred to the control of the Morden-Edgware Line (now the Northern line).</p>",
+                "wiki_link": "http://en.wikipedia.org/wiki/Drayton_Park_railway_station",
+                "opened": "1904",
+                "closed": "1976/08/16"
+            }
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point", 
+            "coordinates": [-0.096300, 51.540600]
+        },
+        "properties": {
+            "marker-color": "#231f20",
+            "type": "Deep",
+            "line": "northern",
+            "name": "Essex Road",
+            "data": {
+                "type_of_closure": "Service withdrawn",
+                "current_condition": "Operated by National Rail",
+                "excerpt": "<p>Between 1933 and 1975 the station was operated as part of the London Underground, as a short branch of the Northern line. Between 1922 and 1948 the station name was Canonbury & Essex Road. The name reverted to the original form in 1948.</p>",
+                "wiki_link": "http://en.wikipedia.org/wiki/Essex_Road_railway_station",
+                "opened": "1904",
+                "closed": "1976/08/16"
+            }
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point", 
+            "coordinates": [-0.086944, 51.510278]
+        },
+        "properties": {
+            "marker-color": "#231f20",
+            "type": "Deep",
+            "line": "northern",
+            "name": "King William Street",
+            "data": {
+                "type_of_closure": "Station and route closed",
+                "current_condition": "Demolished but underground platforms remain",
+                "excerpt": "<p>King William Street was the original but short-lived northern terminus of the City & South London Railway (C&SLR), the first deep-level underground railway in London and one of the component parts of the London Underground's Northern line. It was located in the City of London, on King William Street, just south of the present Monument station. When King William Street was in operation the next station to the south was Borough and the southern terminus of the line was Stockwell.</p>",
+                "wiki_link": "http://en.wikipedia.org/wiki/King_William_Street_tube_station",
+                "opened": "1890/12/18",
+                "closed": "1900/02/24"
+            }
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point", 
+            "coordinates": [-0.141700, 51.545300]
+        },
+        "properties": {
+            "marker-color": "#231f20",
+            "type": "Deep",
+            "line": "northern",
+            "name": "South Kentish Town",
+            "data": {
+                "type_of_closure": "Station closed",
+                "current_condition": "Building remains",
+                "excerpt": "<p>outh Kentish Town tube station is a disused London Underground station which was on the Northern line between Camden Town and Kentish Town. The surface building still exists on Kentish Town Road, close to the junction with Castle Road, and is currently a retail unit occupied by the Cash Converters chain. Closed due to a strike at the Underground's Lots Road Power Station and never reopened due to low passenger numbers.</p>",
+                "wiki_link": "http://en.wikipedia.org/wiki/South_Kentish_Town_tube_station",
+                "opened": "1907/06/22",
+                "closed": "1924/06/05"
+            }
+        }
+    }]
 }]

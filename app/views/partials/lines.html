@@ -1,13 +1,28 @@
 <nav id="lines">
+
+	<div id="map-controls">
+		<a href="" class="btn btn-default" ng-click="resetMapView()">Reset map</a>
+		<div class="btn-group">
+			<a href="" class="btn btn-default" ng-class="{'active': !elevationFilter}" ng-click="filterStations('type', undefined)">All</a>
+			<a href="" class="btn btn-default" ng-class="{'active': elevationFilter === 'Deep'}" ng-click="filterStations('type', 'Deep')">Deep</a>
+			<a href="" class="btn btn-default" ng-class="{'active': elevationFilter === 'Sub-Surface'}" ng-click="filterStations('type', 'Sub-Surface')">Sub-surface</a>
+			<a href="" class="btn btn-default" ng-class="{'active': elevationFilter === 'Surface'}" ng-click="filterStations('type', 'Surface')">Surface</a>
+			<a href="" class="btn btn-default" ng-class="{'active': elevationFilter === 'Elevated'}" ng-click="filterStations('type', 'Elevated')">Elevated</a>
+		</div>
+	</div>
+
 	<ul id="station-colors">
 		<li 
 			ng-repeat="line in lines"
 			class="{{line.id}} clearfix" 
-			ng-click="showLine(line.properties)"
-			ng-mouseenter="overClass = 'animated bounceInLeft'"
-			ng-mouseleave="overClass = 'animated bounceOutLeft'">
+			ng-click="showLine(line.properties)">
 
-			<span style="background: {{line.properties.color}}" class="line-color"></span>
+			<span
+				style="background: {{line.properties.color}}"
+				class="line-color"
+				ng-mouseenter="overClass = 'animated bounceInLeft'"
+				ng-mouseleave="overClass = 'animated bounceOutLeft'"></span>
+
 			<div class="line-name-popup {{overClass}}">{{line.properties.name}}</div>
 			
 		</li>

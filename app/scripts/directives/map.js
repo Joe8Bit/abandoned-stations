@@ -21,7 +21,7 @@ angular.module('abandonedStationsApp')
                         detectRetina: true
                     }
                 })
-                .setView([51.55, -0.174], 11);
+                .setView([51.55, -0.174], 10);
 
         var isSet;
 
@@ -29,7 +29,8 @@ angular.module('abandonedStationsApp')
             var lineLayers = {},
                 zIndexCounter = 0;
 
-            function setTubeLayers () {
+            scope.setTubeLayers = function (setFilter) {
+                scope.purgeLayers();
                 raw.forEach(function (line) {
                     lineLayers[line.properties.id] = L.geoJson(line, {
                         pointToLayer: L.mapbox.marker.style,
@@ -61,6 +62,15 @@ angular.module('abandonedStationsApp')
                                     scope.resetLayers();
                                 }
                             });
+                        },
+                        filter: function (feature, layer) {
+                            if (!feature.properties.type) {
+                                return true;
+                            } else if (setFilter) {
+                                return feature.properties[setFilter.by] === setFilter.filter;
+                            } else {
+                                return true;
+                            }
                         }
                     });
                     addLayer(lineLayers[line.properties.id], zIndexCounter++);
@@ -98,6 +108,14 @@ angular.module('abandonedStationsApp')
                 });
             }
 
+            scope.purgeLayers = function () {
+                if (_.size(lineLayers)) {
+                    _.each(lineLayers, function (layer) {
+                        map.removeLayer(layer);
+                    });
+                }
+            }
+
             scope.resetLayers = function (id) {
                 isSet = undefined;
                 _.each(lineLayers, function (layer) {
@@ -110,6 +128,7 @@ angular.module('abandonedStationsApp')
                         }
                     });
                 });
+                map.setView([51.55, -0.174], 10);
             }
 
             scope.setMap = function (feature) {
@@ -117,11 +136,11 @@ angular.module('abandonedStationsApp')
                     var coords = angular.copy(feature.geometry.coordinates).reverse();
                     map.setView(coords, 16);
                 } else {
-                    map.setView([51.55, -0.174], 11);
+                    map.setView([51.55, -0.174], 10);
                 }
             }
 
-            setTubeLayers();
+            scope.setTubeLayers();
         });
       }
     };

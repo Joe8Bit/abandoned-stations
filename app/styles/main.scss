@@ -147,6 +147,32 @@ header {
   color: #fff;
   z-index: 10;
   width: 44px;
+  #map-controls {
+    position: absolute;
+    left: 55px;
+    top: 10px;
+    width: 410px;
+    a {
+      font-size: 12px;
+      background: darken($blue, 10%);
+      color: #fff;
+      border: 0px;
+      &.active {
+        background: darken($blue, 20%);
+      }
+      &:hover {
+        background: darken($blue, 15%);
+      }
+    }
+    .btn-group {
+      .btn {
+        border-left: 1px solid $blue;
+        &:first-child {
+          border-left: 0px;
+        }
+      }
+    }
+  }
   #github {
     background: darken($green, 5%);
     color: lighten($green, 15%);
