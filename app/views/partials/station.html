@@ -1,4 +1,5 @@
 <section id="station" ng-class="{'animated bounceInUp': station !== undefined}">
+	<a href="" ng-click="showLine({ id: station.line }); station = undefined" class="mobile-back">&laquo; Back to line</a>
 	<h2>{{station.name}}</h2>
 	<h3>{{station.data.opened}} - {{station.data.closed}}</h3>
 	<div class="meta clearfix">

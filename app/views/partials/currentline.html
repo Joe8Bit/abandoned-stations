@@ -1,4 +1,4 @@
-<section id="currentline" ng-class="{'animated bounceInRight': currentLine !== undefined}">
+<section id="currentline" class="animated" ng-class="{'bounceInRight': currentLine !== undefined, 'bounceOutRight': station}">
 	<a href="" id="closeLine" ng-click="purgeCurrentLine()"><span class="icon-uniE600"></span></a>
 	<h3>{{currentLine.line.name}}</h3>
 	<ul>
@@ -8,6 +8,9 @@
 			<span class="last" ng-show="$index === currentLine.stations.length - 1"></span>
 
 			<div class="name">{{station.properties.name}}</div>
+		</li>
+		<li ng-show="!currentLine.stations.length" class="no-stations">
+			There are no abandoned stations on this line
 		</li>
 	</ul>
 </section>

@@ -1,6 +1,6 @@
 <nav id="lines">
 
-	<div id="map-controls">
+	<div id="map-controls" ng-class="{'showMobile': showMobileMenu}">
 		<a href="" class="btn btn-default" ng-click="resetMapView()">Reset map</a>
 		<div class="btn-group">
 			<a href="" class="btn btn-default" ng-class="{'active': !elevationFilter}" ng-click="filterStations('type', undefined)">All</a>

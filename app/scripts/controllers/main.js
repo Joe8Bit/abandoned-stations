@@ -10,11 +10,14 @@
 angular.module('abandonedStationsApp')
   .controller('MainCtrl', function ($scope, LinesSrv, StationsSrv) {
     $scope.elevationFilter = undefined;
-    $scope.$on('tubeLineDataLoaded', function (e, data) {
-        $scope.lines = data;
+    $scope.$on('tubeLineDataLoaded', function (e, clean, raw) {
+        $scope.lines = clean;
+        $scope.raw = raw;
     });
     $scope.showLine = function (line) {
+        line = (line.line) ? line : LinesSrv.get(line.id)[0].properties;
         if ($scope.elevationFilter) $scope.setTubeLayers();
+        $scope.showMobileMenu = false;
         $scope.setMap();
         $scope.highlightLayer(line.id, true);
     	$scope.currentLine = {
@@ -30,6 +33,7 @@ angular.module('abandonedStationsApp')
     	return LinesSrv.get(id);
     }
     $scope.showStation = function (station) {
+        $scope.showMobileMenu = false;
         $scope.setMap(station);
     	$scope.station = station.properties;
     }

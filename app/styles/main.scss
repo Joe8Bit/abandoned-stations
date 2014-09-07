@@ -118,6 +118,19 @@ header {
   background: $blue;
   color: #fff;
   z-index: 10;
+  #mobile-menu {
+    display: none;
+    float: right;
+    background: url(../images/list.svg) no-repeat center center;
+    background-size: 100%;
+    width: 20px;
+    height: 20px;
+    margin: 3px 5px 0 0;
+    color: #fff;
+    @media(max-width:$screen-xs-max){
+      display: block;
+    }
+  }
   .tube-logo {
     float: left;
     width: 25px;
@@ -125,6 +138,11 @@ header {
     background: url(../images/tube.svg) no-repeat;
     background-size: 100%;
     margin: 10px 10px 0;
+    @media(max-width:$screen-xs-max){
+      width: 15px;
+      height: 15px;
+      margin: 7px 7px 0;
+    }
   }
   h1 {
     float: left;
@@ -132,10 +150,17 @@ header {
     font-size: 22px;
     padding: 10px 0;
     font-family: 'Montserrat', sans-serif;
+    @media(max-width:$screen-xs-max){
+      font-size: 14px;
+      padding: 7px 0;
+    }
   }
   #share {
     float: right;
     margin: 10px 10px 0 0;
+    @media(max-width:$screen-xs-max){
+      display: none;
+    }
     .item {
       float: right;
     }
@@ -150,16 +175,46 @@ header {
   color: #fff;
   z-index: 10;
   width: 44px;
+  @media(max-width:$screen-xs-max){
+    width: 25px;
+    top: 29px;
+  }
   #map-controls {
     position: absolute;
     left: 55px;
     top: 10px;
     width: 410px;
+    @media(max-width:$screen-xs-min){
+      display: none;
+      text-align: right;
+      left: 25px;
+      top: 0px;
+      width: 295px;
+      padding: 10px;
+      &.showMobile {
+        display: block;
+      }
+    }
+    @media(max-width:$screen-xs-max){
+      display: none;
+      text-align: right;
+      left: 200px;
+      top: 0px;
+      width: 370px;
+      padding: 10px;
+      &.showMobile {
+        display: block;
+      }
+    }
     a {
       font-size: 12px;
       background: darken($blue, 10%);
       color: #fff;
       border: 0px;
+      @media(max-width:$screen-xs-max){
+        font-size: 10px;
+        padding: 4px 10px 6px;
+      }
       &.active {
         background: darken($blue, 20%);
       }
@@ -168,6 +223,11 @@ header {
       }
     }
     .btn-group {
+      @media(max-width:$screen-xs-min){
+        display: block;
+        margin-top: 7px;
+        float: right;
+      }
       .btn {
         border-left: 1px solid $blue;
         &:first-child {
@@ -186,6 +246,10 @@ header {
     font-size: 26px;
     padding: 9px 7px 4px 11px;
     line-height: 26px;
+    @media(max-width:$screen-xs-max){
+      font-size: 18px;
+      padding: 3px 3px 0px 4px;
+    }
     &:hover {
       color: lighten($green, 30%);
       text-decoration: none;
@@ -211,10 +275,17 @@ header {
         height: 44px;
         position: relative;
         z-index: 10;
+        @media(max-width:$screen-xs-max){
+            width: 25px;
+            height: 24px;
+        }
       }
       .line-name-popup {
         &.animated {
           display: block;
+          @media(max-width:$screen-xs-max){
+            display: none;
+          }
         }
         position: absolute;
         left: 55px;
@@ -258,7 +329,22 @@ header {
   display: none;
   color: #fff;
   z-index: 10;
-  &.animated {
+  @media(max-width:$screen-xs-min){
+    top: 400px;
+    width: 345px;
+    &.hideForMobile {
+      display: none !important;
+    }
+  }
+  @media(max-width:$screen-xs-max){
+    width: 250px;
+    top: 29px;
+    &.hideForMobile {
+      display: none !important;
+    }
+  }
+  &.bounceOutRight,
+  &.bounceInRight {
     display: block;
   }
   ul {
@@ -266,6 +352,19 @@ header {
     padding: 0px;
     list-style: none;
     position: relative;
+    @media(max-width:$screen-xs-min){
+      margin-top: 0px;
+      height: 137px;
+      overflow: scroll;
+    }
+    @media(max-width:$screen-xs-max){
+      margin-top: 0px;
+      height: 260px;
+      overflow: scroll;
+      li {
+        font-size: 12px;
+      }
+    }
     li {
       padding: 10px;
       cursor: pointer;
@@ -275,6 +374,12 @@ header {
         .name {
           opacity: 0.8;
         }
+      }
+      &.no-stations {
+        width: 250px;
+        cursor: default;
+        margin-left: 0px;
+        margin-right: 20px;
       }
       span {
         position: absolute;
@@ -332,6 +437,15 @@ header {
     left: -38px;
     padding: 10px 12px;
     background: darken($yellow, 5%);
+    @media(max-width:$screen-xs-min){
+      left: 0px;
+      top: -30px;
+      padding: 5px 7px;
+    }
+    @media(max-width:$screen-xs-max){
+      left: -28px;
+      padding: 5px 7px;
+    }
     &:hover {
       text-decoration: none;
       background: lighten($yellow, 5%);
@@ -343,6 +457,10 @@ header {
     margin: 0;
     font-size: 18px;
     opacity: 0.5;
+    @media(max-width:$screen-xs-max){
+      font-size: 16px;
+      padding: 7px;
+    }
   }
 }
 
@@ -353,9 +471,20 @@ header {
   bottom: -50px;
   right: 0px;
   padding-bottom: 65px;
-  // height: 350px;
   left: 44px;
   display: none;
+  @media(max-width:$screen-xs-max){
+    left: 25px;
+  }
+  .mobile-back {
+    display: none;
+    padding: 10px 7px 5px;
+    text-decoration: underline;
+    font-size: 12px;
+    @media(max-width:$screen-xs-max){
+      display: block;
+    }
+  }
   &.animated {
     display: block;
   }
@@ -364,30 +493,52 @@ header {
     font-size: 24px;
     color: #333;
     margin: 10px 10px 5px;
+    @media(max-width:$screen-xs-max){
+      font-size: 18px;
+      margin: 0px 7px 3px;
+    }
   }
   h3 {
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     margin: 0px 10px 10px;
     color: #999;
+    @media(max-width:$screen-xs-max){
+      font-size: 12px;
+      margin: 0px 8px 5px;
+    }
   }
   .meta {
-    margin-left: 10px;
+    margin-left: 7px;
     width: 450px;
     .column {
-      float: left;
       margin-right: 20px;
+      float: left;
+      @media(max-width:$screen-xs-min){
+        font-size: 11px;
+        margin-right: 0;
+        float: none;
+      }
+      @media(max-width:$screen-xs-max){
+        font-size: 11px;
+      }
       strong {
         display: block;
       }
       span {
         font-size: 16px;
+        @media(max-width:$screen-xs-max){
+          font-size: 12px;
+        }
       }
     }
   }
   #excerpt {
     margin: 10px 0 0 10px;
     width: 700px;
+    @media(max-width:$screen-xs-max){
+      display: none;
+    }
      p {
       margin-bottom: 5px;
      }
@@ -395,9 +546,13 @@ header {
   #wikilink {
     color: $green;
     display: block;
-    margin-left: 10px;
+    margin-left: 7px;
+    margin-top: 5px;
+    @media(max-width:$screen-xs-max){
+      font-size: 11px;
+    }
     span {
-      font-size: 12px;
+      font-size: 10px;
       margin-left: 5px;
     }
   }
@@ -410,4 +565,7 @@ header {
   bottom: 0px;
   left: 45px;
   z-index: 1;
+  @media(max-width:$screen-xs-max){
+    left: 25px;
+  }
 }

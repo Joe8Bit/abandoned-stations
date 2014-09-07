@@ -24,10 +24,19 @@ angular.module('abandonedStationsApp')
                 .setView([51.55, -0.174], 10);
 
         var isSet;
+        var mapIsSet
 
-        scope.$on('tubeLineDataLoaded', function (e, clean, raw) {
+        scope.$watch('raw', function () {
+            if (!mapIsSet && scope.raw && scope.raw.length) {
+                start(scope.raw);
+            }
+        })
+
+        function start (raw) {
             var lineLayers = {},
                 zIndexCounter = 0;
+
+            mapIsSet = true;
 
             scope.setTubeLayers = function (setFilter) {
                 scope.purgeLayers();
@@ -90,7 +99,7 @@ angular.module('abandonedStationsApp')
                 isSet = perm;
                 _.each(lineLayers, function (layer) {
                     layer.setStyle({
-                        opacity: 0.2
+                        opacity: 0.1
                     });
                     _.each(layer._layers, function (layer) {
                         if (layer.setOpacity) {
@@ -99,7 +108,8 @@ angular.module('abandonedStationsApp')
                     });
                 });
                 layer.setStyle({
-                    opacity: 1
+                    opacity: 1,
+                    zIndex: 999
                 });
                 _.each(layer._layers, function (layer) {
                     if (layer.setOpacity) {
@@ -141,7 +151,7 @@ angular.module('abandonedStationsApp')
             }
 
             scope.setTubeLayers();
-        });
+        }
       }
     };
   });
