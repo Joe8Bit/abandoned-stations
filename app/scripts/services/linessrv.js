@@ -12,7 +12,7 @@ angular.module('abandonedStationsApp')
     var raw, clean;
 
     function init () {
-      return $http({method: 'GET', url: '/data/tube.json'});
+      return $http({method: 'GET', url: 'data/tube.json'});
     }
 
     function get (id) {

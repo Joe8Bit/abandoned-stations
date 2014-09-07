@@ -9,7 +9,7 @@
 angular.module('abandonedStationsApp')
   .directive('lines', function () {
     return {
-      templateUrl: '/views/partials/lines.html',
+      templateUrl: 'views/partials/lines.html',
       restrict: 'E',
       scope: false,
       link: function postLink(scope, element, attrs) {}
